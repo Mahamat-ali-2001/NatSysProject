@@ -163,8 +163,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** __Files in the container are not persistent by default because containers are designed to be ephemeral, meaning they are temporary and stateless. When a container is deleted, all the data within the container's file system is lost unless volumes or bind mounts are used to store data outside the container's lifecycle. In this case, since no volumes were used, the helloworld.txt file is lost when the container is removed.__.
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Yes, we can run multiple instances of Debian Linux. Docker allows us to run multiple containers simultaneously from the same or different images. Each container runs in its own isolated environment, so we can have multiple instances of Debian running concurrently by simply using the docker run command multiple times. Each instance will have its own unique container ID and can be managed independently.__.
 
 ## Running your own container with persistent storage
 
@@ -183,14 +183,16 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
-2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
+1. Check the permissionof the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . __(2 mark)__ __files created in docker container on the host virtual machine will have ownership set to the root user and root group__.
+2. @Mahamat-ali-2001 ➜ /workspaces/NatSysProject/myroot/myroot (main) $ cd /workspaces/NatSysProject  # Change to the parent directory of myroot
+@Mahamat-ali-2001 ➜ /workspaces/NatSysProject (main) $ sudo chown -R codespace:codespace myroot
+@Mahamat-ali-2001 ➜ /workspaces/NatSysProject (main) $ 
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+*** __Yes, I have successfully changed the ownership and permissions of the files within /workspaces/NatSysProject/myroot to the codespace user.__.***
 
 ## You are on your own, create your own static webpage
 
