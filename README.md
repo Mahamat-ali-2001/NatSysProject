@@ -76,22 +76,33 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 
 1. Run the command **pwd** . ***(1 mark)*** __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/2ecffd44-3aba-411d-91f0-8cebbb6eb358)
 __.
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
-4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/8b92371a-fb43-492c-bb11-ebd0bf716082)
+__.
+3. Run the command **df** . ***(1 mark)*** __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/91fb2c22-2f24-4e6e-a27c-ff2594968fc0)
+e__.
+4. Run the command **du** . ***(1 mark)*** __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/bc0192e2-e12e-49f2-b0e9-18b52d052c2f)
+__.
+5. Run the command **ls** . ***(1 mark)*** __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/e257c576-327a-46d8-8462-23936ac0b6b0)
+__.
+6. Run the command **ls -asl** . ***(1 mark)*** __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/e6182ed7-3730-42de-beb4-43f29519ffb9)
+__.
+7. Run the command **free -h** . ***(1 mark)*** __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/5fec4887-79f3-4e4c-a143-2d3b6ae514fc)
+__.
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/d63dd3c9-35d1-4d86-8ec4-5ddaad813d75)
+![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/387ed2bc-e2cc-49bc-b458-f003bb5a3a59)
+
+__.
+10. Run the command **top** and type **q** to quit. ***(1 mark)*** __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/75fefd18-6983-45ce-bcee-c24f4eb90bfc)
+__.
+11. Run the command **uname -a**. ***(1 mark)*** __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/758120bd-385c-4954-8204-ba606b74fa13)
+__.
+12. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
+13. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
+14. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
+15. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
+16. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+17. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+18. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
 
 ## Running your own container instance.
 
