@@ -8,7 +8,7 @@ Team Mates:
 3. __FARUQ MD OMAR__ and __2134787__
 
 ## Rules
-1. You are allowed to have **3 group** members.
+1. You are allowed to have **3 group** members..
 2. When you complete the assignment, make sure to submit the repository link of your cloned project. Make sure all the files are as what you aspect in your repository. 
 3. Answer all questions in the **README.md**, in your own repository. Either use the online VSCode, terminal or github to edit. Answers are expected where you see __Fill answer here__.
 4. Learn how to use markdown. https://www.w3schools.io/file/markdown-introduction/
