@@ -184,9 +184,7 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 ***Questions:***
 
 1. Check the permissionof the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . __(2 mark)__ __files created in docker container on the host virtual machine will have ownership set to the root user and root group__.
-2. @Mahamat-ali-2001 ➜ /workspaces/NatSysProject/myroot/myroot (main) $ cd /workspaces/NatSysProject  # Change to the parent directory of myroot
-@Mahamat-ali-2001 ➜ /workspaces/NatSysProject (main) $ sudo chown -R codespace:codespace myroot
-@Mahamat-ali-2001 ➜ /workspaces/NatSysProject (main) $ 
+2. Can you change the permission of the files to user codespace. You will need this to be able to commit and get points for this question. __(2 mark)__
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
