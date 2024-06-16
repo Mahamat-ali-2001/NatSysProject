@@ -4,8 +4,8 @@ Group Name: __AL-NUJUM__.
 
 Team Mates:
 1. __MAHAMAT ALI ADAM__ and __2129455__
-2. __Fill name__ and __matric no__
-3. __Fill name__ and __matric no__
+2. __ZUMMON MD ASADUZZAMAN__ and __2213853__
+3. __FARUQ MD OMAR__ and __2134787__
 
 ## Rules
 1. You are allowed to have **3 group** members.
