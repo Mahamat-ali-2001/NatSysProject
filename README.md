@@ -254,9 +254,9 @@ __
 docker network create bridgenet
 docker network connect bridgenet c1
 docker network connect bridgenet c2
-docker exec c1 ping c2  __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/9fa5377d-6e3c-48ad-80ab-2fd953ce07d3)__
+docker exec c1 ping c2 
 ```
-
+ __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/9fa5377d-6e3c-48ad-80ab-2fd953ce07d3)__
 ## What to submit
 
 1. Make sure to commit all changes on your source control, and make sure your source control is sync to the repository. 
