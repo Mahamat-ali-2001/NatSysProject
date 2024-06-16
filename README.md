@@ -99,11 +99,10 @@ __.
 12. What is the available free memory in the system. ***(1 mark)*** __the available free memory in the system: 490Mi__.
 13. What is the available disk space mounted on /workspace. ***(1 mark)*** __the available disk space mounted on /workspace: 5.9Gi__.
 14. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __the version and hardware architecture of the linux Virtual environment: Linux codespaces-c7127a 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP__.
-15. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __The ls command lists files and directories in the current directory, showing basic information like filenames. In contrast, ls -asl provides a detailed listing that includes all files (including hidden ones), along with comprehensive information such as permissions, ownership, file sizes, and timestamps. It's particularly useful for gaining a complete view of directory contents and understanding file attributes at a glance.
-__.
+15. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __The ls command lists files and directories in the current directory, showing basic information like filenames. In contrast, ls -asl provides a detailed listing that includes all files (including hidden ones), along with comprehensive information such as permissions, ownership, file sizes, and timestamps. It's particularly useful for gaining a complete view of directory contents and understanding file attributes at a glance.__.
 16. What is the TLB size of the Virtual CPU. ***(1 mark)*** __The TLB size of the Virtual CPU: 2560 4k pages__.
 17. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __The CPU speed of the Virtual CPU: 3142.202__.
-18. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __The top running process that consumes the most CPU cycles: 34889 codespa+ __.
+18. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __The top running process that consumes the most CPU cycles: 34889 codespa+__.
 
 ## Running your own container instance.
 
@@ -255,8 +254,7 @@ __
 docker network create bridgenet
 docker network connect bridgenet c1
 docker network connect bridgenet c2
-docker exec c1 ping c2  __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/1d7e9f88-0230-4ef9-ac54-1d175fe8568c)
-__
+docker exec c1 ping c2  __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/9fa5377d-6e3c-48ad-80ab-2fd953ce07d3)__
 ```
 
 ## What to submit
