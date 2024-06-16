@@ -96,13 +96,14 @@ __.
 __.
 11. Run the command **uname -a**. ***(1 mark)*** __![image](https://github.com/Mahamat-ali-2001/NatSysProject/assets/172935800/758120bd-385c-4954-8204-ba606b74fa13)
 __.
-12. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-13. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-14. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-15. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-16. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-18. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+12. What is the available free memory in the system. ***(1 mark)*** __the available free memory in the system: 490Mi__.
+13. What is the available disk space mounted on /workspace. ***(1 mark)*** __the available disk space mounted on /workspace: 5.9Gi__.
+14. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __the version and hardware architecture of the linux Virtual environment: Linux codespaces-c7127a 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP__.
+15. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __The ls command lists files and directories in the current directory, showing basic information like filenames. In contrast, ls -asl provides a detailed listing that includes all files (including hidden ones), along with comprehensive information such as permissions, ownership, file sizes, and timestamps. It's particularly useful for gaining a complete view of directory contents and understanding file attributes at a glance.
+__.
+16. What is the TLB size of the Virtual CPU. ***(1 mark)*** __The TLB size of the Virtual CPU: 2560 4k pages__.
+17. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __The CPU speed of the Virtual CPU: 3142.202__.
+18. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __The top running process that consumes the most CPU cycles: 34889 codespa+ __.
 
 ## Running your own container instance.
 
